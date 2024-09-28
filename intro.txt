@@ -1,0 +1,41 @@
+Web Development : 
+1. HTML  : Completed 
+2. CSS   : Start
+3. JS    : Soon....
+
+=> CSS : 
+-> CSS stands for cascading style sheet.
+    cascading : 
+    style : design 
+    sheet : document
+
+=> USES : 
+-> design a Structure.
+
+
+=> Advantages : 
+-> make a Load Faster.
+-> design.
+
+
+=> DisAdvantages : 
+-> Version of CSS.
+    CSS 1
+    CSS 2
+    CSS 3 (latest)
+
+
+
+=> How to Implement CSS in a HTML ? 
+-> There are Three Types.
+    1) inline CSS.
+    2) internal CSS.
+    3) external CSS.
+
+
+Note : 
+    We can use HTML File Without CSS. 
+    but we cann't use CSS File without HTML.
+
+
+Extansion : 'filename.css'
