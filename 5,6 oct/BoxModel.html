@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* Universal Selector*/
+        *{
+            /* default */
+            /* box-sizing: content-box; */
+            box-sizing: border-box;
+        }
+        div{
+            background-color: slateblue;
+            width: 50%;
+            height: 200px;
+            /* margin: 20px 40px 10px 9px; */
+            padding: 50px 19px 37px 49px;
+        }
+        /* 
+            Total width = width + (left+right Padding) + (left+right border)
+                        = 300   +   49    + 19   + 0 
+                        = 368
+            Total height = height + (top+bottom Padding) + (top+bottom border)
+                        = 200px   + 50 + 37 
+                        = 287 
+        */
+    </style>
+</head>
+<body>
+
+    <div>
+        <h1>Box Model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero.</p>
+    </div>
+    <div>
+        <h1>Box Model</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, libero.</p>
+    </div>
+</body>
+</html>

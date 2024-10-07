@@ -1,0 +1,41 @@
+div{
+    width: 100%;
+    height: 500px;
+    background-color: coral;
+
+    background-image: url("https://th.bing.com/th/id/R.9de157aa4767382275b28b86491e01bb?rik=4OsuvKb%2bCxbHmg&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1608501078713-8e445a709b39%3fcrop%3dentropy%26cs%3dtinysrgb%26fit%3dmax%26fm%3djpg%26ixid%3dMnwxMjA3fDB8MXxzZWFyY2h8MXx8d2FsbHBhcGVyJTIwNGt8fDB8fHx8MTYyNjY2NDg4MQ%26ixlib%3drb-1.2.1%26q%3d80%26w%3d1080&ehk=UOU1WZblf8dZgXl%2fkYL9Fw4AP%2fzf7hUiIfRmWBU%2fdHU%3d&risl=&pid=ImgRaw&r=0");
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+    /* default */
+                        /* X  Y */
+    /* background-position: 0px 0px; */
+    /* background-position: 0% 0%; */
+    /* background-position: top left; */
+    /* background-position: 0% 0px; */
+    /* background-position: top 0px; */
+    /* background-position: 0px left; */
+
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: center; */
+
+    /* background-position: top right; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+
+
+    /* background-position: 30% 50%; */
+    /* background-position: 100px 30px;*/
+    
+
+
+
+
+
+
+
+
+}
