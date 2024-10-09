@@ -1,0 +1,25 @@
+/* All Tags */
+
+a{
+    color: red;
+    /* default */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+} 
+
+
+/* Visited Anchor */
+/* a:visited{
+    color: green;
+} */
+/* a:link{
+    color: red;
+} */
+/* a:active{
+    color: yellow;
+} */
+/* a:hover{
+    color: black;
+} */
