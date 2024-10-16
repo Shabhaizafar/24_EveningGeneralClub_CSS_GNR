@@ -1,0 +1,47 @@
+/* body{
+    background-color: coral;
+    background-image: url("https://images.unsplash.com/photo-1552083375-1447ce886485?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZCUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+
+    /* background-attachment: scroll; */
+
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+
+/* } */
+div{
+    background-color: coral;
+    /* width: 50%; */
+    background-image: url("https://images.unsplash.com/photo-1552083375-1447ce886485?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YmFja2dyb3VuZCUyMHdhbGxwYXBlcnxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+
+
+    /* overflow: scroll; */
+    /* overflow: visible;  unset */
+    overflow: auto;
+
+    /* overflow-y: scroll; */
+    /* overflow-x: auto; */
+    /* background-attachment: scroll; */
+    background-attachment: local;
+
+
+
+}
+p{
+    width: fit-content;
+}
+
+
+
+/* 
+background-attachment
+1) body : 
+    scroll(default),fixed,local (not workable for body)
+
+2) element : 
+    fixed(default),scroll (not workable for element),local (work as a scrolling for specific element)
+*/

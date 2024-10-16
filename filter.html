@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+
+            /* h-offet  v-offet blur color*/
+            /* box-shadow: -5px -5px 5px red; */
+        }
+        img{
+            width: 300px;
+            /* px */
+            /* filter: blur(10px); */
+
+            /* 0-1 */
+            /* filter: opacity(0.1); */
+
+            /* 0-1 */
+            /* filter: sepia(1); */
+
+            /* 0-1 */
+            /* filter: grayscale(1); */
+
+            /* default : 100%
+                0% : black
+                infinite : brightness increase
+            */
+            /* filter: brightness(300%); */
+
+            /* 
+                default : 100%
+                0%  : gray
+            */
+            /* filter: contrast(300%); */
+            /* filter: saturate(); */
+
+            /* 0-360deg
+            0deg : default
+             */
+
+            /* filter: hue-rotate(270deg); */
+
+            filter: drop-shadow(5px 5px 5px black) drop-shadow(-5px -5px 5px black);
+
+            /* 0-1 
+                0 : default
+                .5 : gray
+
+            */
+            /* filter: invert(1); */
+            /* box-shadow: 5px 5px 5px red; */
+        }
+        .brightness{
+            /* default : 100%
+                0% : black
+                infinite : brightness increase
+            */
+            filter: brightness(300%);
+        }
+        .contrast{
+            /* 
+                default : 100%
+                0%  : gray
+            */
+            filter: contrast(300%);
+        }
+        .saturate{
+            /*
+             default : 100%
+                0% : black & white
+            */
+            filter: saturate(300%);
+        }
+
+        img:hover{
+            /* filter: blur(0px); */
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <img src="firefox-logfo-vector-01.png" alt="">    
+    <img src="firefox-logfo-vector-01.png" alt="" class="brightness">
+    <img src="firefox-logfo-vector-01.png" alt="" class="contrast">
+    <img src="firefox-logfo-vector-01.png" alt="" class="saturate">    
+
+</body>
+</html>
