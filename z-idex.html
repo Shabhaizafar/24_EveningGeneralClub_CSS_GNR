@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            /* position:  static; */
+            position: absolute;
+        }
+        .class1{
+            background-color: lightcoral;
+            top: 50px;
+            left: 50px;
+            z-index: 2;
+            /* priority */
+        }
+        .class2{
+            background-color: lightgreen;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+        .class3{
+            background-color: lightseagreen;
+            top: 150px;
+            left: 150px;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="class1">Div 1</div>
+    <div class="class2">Div 2</div>
+    <div class="class3">Div 3</div>
+</body>
+</html>
