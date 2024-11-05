@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
     font-family: 'zafar';
     src: url('Pretty\ Dahlia.otf');
 }
 
 h1{
-    font-size: 100px;
+    font-size: 100px; */
     /* font-weight: bold; */
 
     /* thin */
@@ -39,26 +39,64 @@ h1{
     /* font-family: honk; */
 
     /* font-family: 'zafar'; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     
     /* text-align: ; */
     /* text-indent: ; */
     /* text-shadow: ; */
-                /* h-offset v-offset blur color */
-    text-shadow: 5px -5px 5px red;   
-}
+
+    /* h-offset v-offset blur color */
+
+    /* text-shadow: 5px 5px 5px red,10px 10px 5px blue;    */
+/* }
 p{
-    font-size: 30px;
+    font-size: 30px; */
     /* font-style: normal; */
     /* font-style: italic; */
     /* font-style: oblique; */
     /* text-align: left; */
     /* text-align: right; */
     /* text-align: center; */
-    text-align: justify;
+    /* text-align: justify;
     text-indent: 100px;
-
+ */
 
 
     /* font-weight: bold; */
+/* } */
+
+
+
+img{
+    width: 300px;
+
+    /* px */
+    /* filter: blur(10px); */
+
+    /* % */
+    /* filter: brightness(300%); */
+    /* filter: contrast(500%); */
+    /* filter: saturate(500%); */
+
+    /* 0-1 */
+    /* filter: grayscale(.5); */
+    /* filter: sepia(.5); */
+    /* filter: opacity(1); */
+
+    /* deg 0-360 */
+    /* filter: hue-rotate(270deg); */
+
+    /* filter: invert(1); */
+    filter: drop-shadow(15px 15px 5px black);
+
+    /* box-shadow: 5px 5px 5px red; */
+}
+img:hover{
+    /* filter: blur(0px); */
+}
+div{
+    width: 200px;
+    background-color: red;
+    font-size: 24px;
+    box-shadow: 5px 5px 5px blue,15px 15px 5px orange;
 }
