@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'zafar';
+    src: url('Pretty\ Dahlia.otf');
+}
+
+h1{
+    font-size: 100px;
+    /* font-weight: bold; */
+
+    /* thin */
+    /* font-weight: 100; */
+    /* font-weight: 200; */
+    /* font-weight: 300; */
+    /* font-weight: 400; */
+    /* font-weight: lighter; */
+
+    /* regular */
+    /* font-weight: 500; */
+    /* font-weight: normal; */
+
+    /* bold  */
+    /* font-weight: 600; */
+    /* font-weight: 700; */
+    /* font-weight: bold; */
+
+    /* bolder  */
+    /* font-weight: 800; */
+    /* font-weight: 900; */
+    /* font-weight: bolder; */
+
+
+
+    /*  */
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    /* font-family: cursive; */
+    /* font-family: cursive,'verdana'; */
+    /* font-family: Times New Roman; */
+    /* google font */
+    /* font-family: honk; */
+
+    /* font-family: 'zafar'; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    /* text-align: ; */
+    /* text-indent: ; */
+    /* text-shadow: ; */
+                /* h-offset v-offset blur color */
+    text-shadow: 5px -5px 5px red;   
+}
+p{
+    font-size: 30px;
+    /* font-style: normal; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    /* text-align: left; */
+    /* text-align: right; */
+    /* text-align: center; */
+    text-align: justify;
+    text-indent: 100px;
+
+
+
+    /* font-weight: bold; */
+}
