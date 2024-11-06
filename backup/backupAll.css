@@ -100,3 +100,27 @@ div{
     font-size: 24px;
     box-shadow: 5px 5px 5px blue,15px 15px 5px orange;
 }
+
+
+
+/* 
+Arr[] = {30 ,40  ,39   ,50   ,10  ,75   ,   65};
+         0    1    2     3     4    5        6
+         1    2    3     4     5    6        7    (wrong)
+        100  102  104   106  108   110     112
+
+address of A[i]= address of A[1]+i×size of each element 
+
+
+find i=3 index  value  :   =50 
+
+    A[3]    = 100 + 3x2 ;
+            = 100 + 6
+            =106
+            = 50
+
+find i = 3 index value     = 39
+    A[3]   =  100 + 3*2;
+            =106 
+            =50
+*/
