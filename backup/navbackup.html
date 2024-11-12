@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .menu{
+            background-color: darkolivegreen;
+            list-style-type: none;
+            text-align: center;
+        }
+        li{
+            background-color: lightseagreen;
+            display: inline-block;
+            width: 150px;
+            padding: 10px 15px;
+            position: relative;
+            margin-right: 20px;
+        }
+        a{
+            color: black;
+            font-size: 24px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+        }
+        li:hover{
+            background-color: lightsteelblue;
+        }
+        li:hover a{
+            color: blue;
+        }
+        .nest{
+            position: absolute;
+            top: 50px;
+            left: 0px;
+            display: none;
+        }
+        li:hover .nest{
+            display: block;
+        }
+        .nest li{
+            background-color: black;
+            display: block;
+        }
+        .nest a{
+            color: lavender;
+        }
+        .nest li:hover{
+            background-color: lightgray;
+        }
+        .nest li:hover a{
+            color: darkolivegreen;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="">Link1</a>
+            <ul class="nest">
+                <li><a href="">Royal1</a></li>
+                <li><a href="">Royal2</a></li>
+                <li><a href="">Royal3</a></li>
+            </ul>
+        </li>
+
+        <li><a href="">Link2</a></li>
+        <li><a href="">Link3</a></li>
+        <li><a href="">Link4</a></li>
+    </ul>
+</body>
+</html>
