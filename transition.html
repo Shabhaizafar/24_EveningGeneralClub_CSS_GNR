@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            background-color: cadetblue;
+            /* transition: all 2s ; */
+            /* transition-property: all; */
+            /* transition-property: width,height; */
+            /* transition-duration: 3s; */
+            /* s,ms */
+            /* transition-delay: 3s; */
+
+
+                /* proprty,duration,delay */
+            /* transition: all 2s 3s; */
+            animation-name: box;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        /* div:hover{
+            background-color: red;
+            transform: translateX(300px);
+        } */
+         @keyframes box {
+            from{
+                transform: translateX(0px);
+            }to{
+                transform: translateX(500px);
+            }
+         }
+        .box1{
+            /* transition-timing-function: linear; */
+            animation-timing-function: linear;
+        }
+        .box2{
+            /* transition-timing-function: ease; */
+            animation-timing-function: ease-in;
+        }
+        .box3{
+            animation-timing-function: ease-out;
+        }
+        .box4{
+            animation-timing-function: ease-in-out;
+        }
+        .box5{
+            animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+        }
+        .box6{
+            /* animation-timing-function: cubic-bezier(0, 0, 0, 0.5); */
+            /* animation-timing-function: cubic-bezier(1, 1, 1, 0.5); */
+            /* animation-timing-function: cubic-bezier(1, 1, 0, 1); */
+            /* animation-timing-function: cubic-bezier(1, 1, 0, 0.5); */
+            animation-timing-function: cubic-bezier(1,0,1,1);
+            
+            /*  */
+        }
+    </style>
+</head>
+<body>
+    <div class="box1">linear</div>
+    <div class="box6">Box6</div>
+    <div class="box2">ease-in</div>
+    <div class="box3">ease-out</div>
+    <div class="box4">ease-in-out</div>
+    <div class="box5">Box5</div>
+    <div class="box7">Box7</div>
+    <div class="box8">Box8</div>
+    <div class="box9">Box9</div>
+    <div class="box10">Box10</div>
+</body>
+</html>
