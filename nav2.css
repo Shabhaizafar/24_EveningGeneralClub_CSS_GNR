@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #a9fbbc;
+}
+ul{
+    list-style-type: none;
+    background-color: white;
+    padding: 10px;
+}
+li{
+    display: inline-block;
+    width: 110px;
+    /* margin-left: -4px; */
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+    padding: 5px 20px;
+    display: inline-block;
+}
+.class1{
+    position: absolute;
+}
+a:hover{
+    color: #308d46;
+}
+a:hover .class1{
+    transform: rotate(180deg);
+    transition: all .2s;
+}
+.submenu{
+    position: absolute;
+    display: none;
+    top:52px;
+    padding: 0px;
+    border-top: 4px solid #308d46;
+}
+.submenu li{
+    width: 300px;
+    display: block;
+    padding: 0px;
+}
+.submenu li a{
+    display: block;
+    padding: 10px 15px;
+}
+.submenu li a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+li:hover .submenu{
+    display: block;
+}
