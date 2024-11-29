@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Layout with Justify-Content</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row; /* Arrange items in a row */
+            flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+            justify-content: center; /* Center items horizontally */
+            gap: 20px; /* Space between items */
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .item {
+            flex-grow: 1; /* Allow items to grow equally */
+            min-width: 200px; /* Minimum width for flexible items */
+            max-width: 300px; /* Limit maximum width for better control */
+            background-color: #ffffff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .item img {
+            max-width: 100%; /* Make the image responsive */
+            border-radius: 8px;
+        }
+
+        .item p {
+            margin: 10px 0 0;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Placeholder Image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et ultricies nunc.</p>
+        </div>
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Placeholder Image">
+            <p>Proin auctor ligula ac neque pharetra, vel feugiat sapien fermentum.</p>
+        </div>
+        <div class="item">
+            <img src="https://images.unsplash.com/photo-1485470733090-0aae1788d5af?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmF0dXJlJTIwd2FsbHBhcGVyc3xlbnwwfHwwfHx8MA%3D%3D" alt="Placeholder Image">
+            <p>Maecenas interdum nisl vitae eros suscipit, id accumsan lorem blandit.</p>
+        </div>
+    </div>
+
+</body>
+</html>

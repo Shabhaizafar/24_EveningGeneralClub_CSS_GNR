@@ -6,7 +6,7 @@
 div{
     background-color: lightgreen;
     height: 600px;
-    display: flex;
+    /* display: flex; */
 
     /* default */
     /* justify-content: left; */
