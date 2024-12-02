@@ -1,0 +1,74 @@
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    width: 70%;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgreen;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: row; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap-reverse; */
+    gap: 30px;
+    /* align-items: stretch; */
+    /* align-items: start; */
+    /* align-items: flex-start; */
+
+    /* align-items: end; */
+    /* align-items: flex-end; */
+
+    /* align-items: center; */
+    /* align-items: first baseline; */
+    /* align-items: last baseline; */
+
+    /* --------------------------------------- */
+    /* align-content: center; */
+
+}
+main{
+    flex-grow: 1;
+    flex-basis: 45px;
+}
+h2{
+    flex-grow: 1;
+    /* flex-basis: 200px; */
+    /* align-self: center; */
+    /* align-content: center; */
+    flex-basis: 60px;
+}
+p{
+    flex-grow: 1;
+    flex-basis: 45px;
+}
+
+.box1{
+    background-color: aqua;
+}
+.box2{
+    background-color: darkolivegreen;
+}
+.box3{
+    background-color: coral;
+}
+.box4{
+    background-color: blue;
+}
+.box5{
+    background-color: aqua; 
+}
+.box6{
+    background-color: purple;
+}
+.box7{
+    background-color: crimson; 
+}
+.box8{
+    background-color: cadetblue;
+}
+
