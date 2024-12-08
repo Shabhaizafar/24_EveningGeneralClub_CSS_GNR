@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+
+        /* printing */
+        /* @media print {
+            img{
+                display: none;
+            }
+        } */
+    /* @media screen {
+        h1{
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+            color: blue;
+            font-family: monospace;
+        }
+    } */
+
+    @media screen and (min-width:1000px){
+        h1{
+            color: red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        p{
+            color: blue;
+            font-family: monospace;
+        }
+        img{
+            width: 300px;
+        }
+    }
+
+
+    @media screen and (max-width:1000px) and (min-width : 768px){
+        body{
+            background-color: black;
+        }
+        h1{
+            color: coral;
+            font-family: cursive;
+            text-align: center;
+        }
+        p{
+            color: yellow;
+            font-family: verdana;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 300px;
+        }
+    }
+
+    @media screen and (max-width:768px) and (min-width : 500px){
+        body{
+            background-color: gray;
+        }
+        h1{
+            color: darkblue;
+            font-family: cursive;
+            text-align: center;
+            font-size: 56px;
+        }
+        p{
+            color: yellow;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 100%;
+        }
+    }
+    </style>
+</head>
+<body>
+   <div>
+        <h1>HTML</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam aut cumque illo dolor ex quae cum voluptas veniam, magnam deserunt, cupiditate reiciendis necessitatibus minus tempora impedit aliquam rem ad dignissimos amet, maiores temporibus quod animi assumenda. Quibusdam magni nemo, quidem quae minus molestiae ipsa eaque maxime, placeat est porro nisi, modi vero quaerat ducimus sint soluta voluptatem iure aspernatur consectetur quasi! Non sequi alias at? Corporis delectus odit dolorem harum nesciunt minima? Est in voluptas sit consequatur neque fugiat voluptatum numquam distinctio quas. Dolor dolore et tempora! Tempora ab totam perspiciatis mollitia ex culpa repudiandae amet id cum dignissimos? Ipsam magnam et exercitationem ratione odio aut illum ipsum temporibus placeat, nihil eveniet amet! Expedita magni aliquam doloremque voluptas saepe consequatur nam, ullam perspiciatis. Debitis molestiae odio minus libero voluptates fuga, dolores sint dolorum pariatur amet nobis. Voluptatibus incidunt tempora ipsam exercitationem eius asperiores fugit, molestiae neque commodi atque, in doloremque repellendus magni tenetur cum! Saepe doloribus exercitationem maiores hic id aliquam est inventore quas eveniet in? Eaque aspernatur enim nesciunt ducimus praesentium ipsum quis illo non quisquam obcaecati, perferendis reiciendis alias voluptates minima voluptatum? Ut vitae nemo amet est cumque sapiente eius doloribus pariatur hic, commodi totam rem asperiores ipsa.</p>
+        <img src="firefox-logfo-vector-01.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere dolores saepe explicabo. Deserunt ipsam voluptatum molestias temporibus corrupti perferendis voluptatibus alias quam provident id dolor, sequi pariatur deleniti dicta sint?</p>
+
+   </div> 
+</body>
+</html>
+
+<!-- 
+Responsive Layout :
+
+1) meta  : viewport
+2) flex 
+3) grid
+4) Media Query
+
+-->
