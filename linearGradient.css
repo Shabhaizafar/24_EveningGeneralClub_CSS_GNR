@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+/* Mutiple Color */
+.box1{
+    /*  */
+    /* background-color: red;
+    background-color: blue; */
+
+    /* background-color: red,blue; */
+
+    background-image: linear-gradient(red,yellow);
+}
+.box2{
+    background-image: linear-gradient(to bottom,red,yellow);
+}
+.box3{
+    background-image: linear-gradient(to top,red,yellow);
+}
+.box4{
+    background-image: linear-gradient(to right,red,yellow);
+}
+.box5{
+    background-image: linear-gradient(to left,red,yellow);
+}
+.box6{
+    background-image: linear-gradient(to bottom right,red,yellow); 
+}
+.box7{
+    background-image: linear-gradient(to top right,red,yellow);  
+}
+.box8{
+    background-image: linear-gradient(red 0px,red 100px,yellow 100px,yellow 200px); 
+}
+.box9{
+    background-image: linear-gradient(to right,red 0px,red 100px,yellow 100px,yellow 200px); 
+}
+.box10{
+    background-image: linear-gradient(to right bottom,red 0px,red 100px,yellow 100px,yellow 200px); 
+}
+.box11{
+    background-image: linear-gradient(red 0%,red 50%,yellow 50%,yellow 100%); 
+}
+.box12{
+    background-image: linear-gradient(to right bottom,red 0%,red 50%,yellow 50%,yellow 100%); 
+}
+.box13{
+    background-image: linear-gradient(red 0px,red 10px,yellow 10px,yellow 30px,red 30px,red 60px,yellow 60px,yellow 80px);   
+}
+.box14{
+    background-image: repeating-linear-gradient(red 0px,red 10px,yellow 10px,yellow 30px,red 30px,red 60px,transparent 60px,transparent 80px);  
+}
+.box15{
+    background-image: linear-gradient(red 0px,red 30px,yellow 30px,yellow 60px),linear-gradient(yellow 0px,yellow 30px,red 30px,red 60px);
+    background-size: 30px 60px;   
+    background-repeat: repeat-y;
+    background-position: 0px 0px,30px 0px;
+}
+

@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+/* Mutiple Color */
+.box1{
+    background-image: radial-gradient(red,yellow);
+}
+.box2{
+    background-image: radial-gradient(at 50% 50%,red,yellow);
+}
+.box3{
+    background-image: radial-gradient(at 0% 0%,red,yellow);
+}
+.box4{
+    background-image: radial-gradient(at 100% 100%,red,yellow);
+}
+.box5{
+    background-image: radial-gradient(at left,red,yellow);
+}
+.box6{
+    background-image: radial-gradient(at bottom,red,yellow);
+}
+.box7{
+    background-image: radial-gradient(red 0px,red 20px,yellow 20px,yellow);
+}
+.box8{
+    background-image: radial-gradient(at left,red 0px,red 20px,yellow 20px,yellow);
+}
+.box9{
+    background-image: radial-gradient(at top,red 0px,red 20px,yellow 20px,yellow);
+}
+.box10{
+    background-image: radial-gradient(circle at left,red 0px,red 20px,yellow 20px,yellow);
+}
+.box11{
+    background-image: radial-gradient(circle at 40px 40px,red 0px,red 20px,yellow 20px,yellow);
+}
+.box12{
+    background-image: repeating-radial-gradient(red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box13{
+    background-image: repeating-radial-gradient(at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box14{
+    background-image: repeating-radial-gradient(circle at left,red 0px,red 20px,yellow 20px,yellow 40px);
+}
+.box16{
+    background-image: radial-gradient(at 50px 50px,red,yellow);
+}
+.box17{
+    background-image: radial-gradient(farthest-corner at 50px 50px,red,yellow);
+}
+.box18{
+    background-image: radial-gradient(closest-corner at 50px 50px,red,yellow);
+}
+.box19{
+    background-image: radial-gradient(farthest-side at 50px 50px,red,yellow);
+}
+.box20{
+    background-image: radial-gradient(closest-side at 50px 50px,red,yellow);
+}
