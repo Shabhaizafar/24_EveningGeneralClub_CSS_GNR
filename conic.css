@@ -1,0 +1,65 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+div{
+    width: 240px;
+    height: 240px;
+    border: 1px solid black;
+}
+/* Mutiple Color */
+
+/* linear : to  */
+/* radial : at(center point) */
+
+/* conic : from */
+.box1{
+    background-image: conic-gradient(red,yellow);
+}
+.box2{
+    background-image: conic-gradient(from 30deg,red,yellow);   
+}
+.box3{
+    background-image: conic-gradient(at 10% 50%,red,yellow);   
+}
+.box4{
+    background-image: conic-gradient(at 100px 150px,red,yellow);   
+}
+.box5{
+    background-image: conic-gradient(red,yellow,red);
+}
+.box6{
+    background-image: conic-gradient(red 0deg,red 180deg,yellow 180deg,yellow);
+}
+.box7{
+    background-image: conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+}
+.box8{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+}
+.box9{
+    border-radius: 50%;
+    background-image: repeating-conic-gradient(from 45deg,red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+    
+}
+.box10{
+    background-image: repeating-conic-gradient(red 0deg,red 90deg,yellow 90deg,yellow 180deg);
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: repeat;
+    background-size: 60px 60px;
+}
+.box11{
+    
+}
+.box12{
+    
+}
+.box13{
+    
+}
+.box14{
+    
+}
