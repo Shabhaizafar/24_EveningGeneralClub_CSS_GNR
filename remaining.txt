@@ -1,11 +1,13 @@
-icons  : 
-    Google 
-    font awesome 
-
 List : 
 
 Table : 
 
 anchor  : 
 
-Units 
+Units  : 
+
+after before  : 
+
+outline 
+
+Selectors(All remaining)

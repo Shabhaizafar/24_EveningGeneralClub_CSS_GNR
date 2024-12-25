@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <form action="">
+        <h1>Login to Your Account</h1>
+        <label for="uname">Username</label>
+        <input type="text" id="uname">
+        <label for="pwd">Password</label>
+        <input type="password" id="pwd">
+        <button class="btn">Log in</button>
+        <p>Too lazy ? Login with Social Media Account</p>
+        <div class="Social">
+            <button>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </button>
+            <button>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </button>
+            <button>
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+            </button>
+        </div>
+    </form>
+
+    <script>
+        const div = document.querySelector('div');
+        
+        div.addEventListener('click',function(event){
+            event.preventDefault();
+            if(event.target.tagName=="I"){
+                event.target.style.border =  "2px solid black";
+                event.target.style.borderRadius = "50%";
+                event.target.style.boxShadow = "0px 0px 0px transparent";
+            }
+            
+        });
+
+    </script>
+</body>
+</html>

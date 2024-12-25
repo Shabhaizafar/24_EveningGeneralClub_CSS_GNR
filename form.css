@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1506452305024-9d3f02d1c9b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80'); 
+    background-size: 114% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    background-color:#686d6f8e;
+    color: white;
+    font-family: sans-serif;
+    padding: 50px;
+    box-shadow: 10px 10px 20px #7377799c;
+}
+label{
+    font-size: small;
+}
+h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+input{
+    display: block;
+    margin: 2px 0px 12px;
+    width: 100%;
+    border: none;
+    padding: 10px 8px;
+    border-radius: 3px;
+    background-color: #0000002b;
+    color: white;
+}
+:focus{
+    background-color: #434343;
+    outline: none;
+    box-shadow: 0px 2px 2px #0000002b,0px 5px 10px #00000036;
+}
+.btn{
+    width: 100%;
+    padding: 10px 20px;
+    border: 2px solid #434343;
+    background-color: #0000003f;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: #0663b4;
+    border-color: #074780;
+    transition: all .4s;
+}
+p{
+    margin: 15px 0px;
+    font-size: 14px;
+    text-align: center;
+}
+.Social{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 50%;
+}
+i{
+    padding: 10px;
+    font-size: 24px;
+    border: 2px solid transparent;
+}
+.Social button:hover{
+    box-shadow: 5px 5px 10px #0000004f ,-5px -5px 10px #0000004f;
+    transition: all .3s;
+}
+.Social button{
+    
+}
